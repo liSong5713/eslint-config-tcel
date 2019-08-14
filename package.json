@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-tcel",
+  "version": "1.0.4",
+  "description": "同城艺龙酒店微信小程序eslint规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "微信小程序代码规范",
+    "微信小程序eslint配置",
+    "基于eslint standard",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "hint",
+    "jshint",
+    "lint"
+  ],
+  "peerDependencies": {
+    "eslint": ">=6.0.1",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "prettier": ">=1.13.0"
+  },
+  "author": {
+    "name": "rick.li",
+    "email": "lisong5713@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.18.2"
+  }
+}
