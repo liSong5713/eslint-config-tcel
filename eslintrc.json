@@ -5,8 +5,10 @@
   },
 
   "env": {
+    "browser": true,
+    "node": true,
     "es6": true,
-    "node": true
+    "commonjs": true
   },
   "extends": ["prettier"],
 
@@ -24,10 +26,15 @@
     "getCurrentPages": true,
     "wx": true,
     "worker": true,
+    "sys": true,
     "__wxConfig": true
   },
 
   "rules": {
+    "require-yield": "error",
+    "for-direction": "error",
+    "getter-return": "error",
+    "no-unused-labels": "error",
     "accessor-pairs": "error",
     "array-bracket-spacing": ["error", "never"],
     "arrow-spacing": ["error", { "before": true, "after": true }],
