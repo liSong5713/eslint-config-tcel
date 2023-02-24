@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tcel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "同城艺龙酒店微信小程序eslint规范",
   "main": "index.js",
   "scripts": {
